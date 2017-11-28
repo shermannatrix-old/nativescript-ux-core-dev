@@ -14,7 +14,7 @@ This project will aim to cover a few objectives that I have in mind:
 
 1. To create a plugin that isn't really an "outside" module that behaves on its own, instead, it can be integrated into the element's declaration itself, for example:
 ```
-<Button gradient="signin-btn-gradient" text="SIGN IN" (tap)="btnSignInTapped()"></Button
+<Button gradient="signin-btn-gradient" text="SIGN IN" (tap)="btnSignInTapped()"></Button>
 ```
     - "gradient": this is a property that can be used to point to a particular gradient file that defines properties like the colours, the direction (angle - provides greater control, not just left, right, up, down), the stops as well as the transparency for each stop in the gradient.
 

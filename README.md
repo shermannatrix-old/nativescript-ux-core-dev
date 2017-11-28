@@ -35,6 +35,20 @@ This project will aim to cover a few objectives that I have in mind:
 
 2. The plugin should be something that developers can set at compile/design-time, but also do it programmatically. This flexibility is important because from a User Experience perspective, some elements should only respond with changes upon user interaction.
 
+```
+// We will place this anywhere in the code where we want to programmatically provide the colours.
+gradient.setAngle(-45);    // Set to 45% in anti-clockwise direction
+gradientColour1.set("#F1728F", 1, 0, 100);   // colour, stop, position, opacity
+gradientColour2.set("#F38261", 2, 50, 75);
+gradientColour3.set("F57827", 3, 100, 50);
+
+gradient.addColour(gradientColour1);
+gradient.addColour(gradientColour2);
+gradient.addColour(gradientColour3);
+
+gradient.attach(signInBtn);
+```
+
 3. Hopefully, maybe this plugin might become an integrated part of the NativeScript framework in the near future.
 
 4. This project will also serve as a reference point for all future UX-related plugin projects for NativeScript.

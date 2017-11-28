@@ -28,6 +28,7 @@ This project will aim to cover a few objectives that I have in mind:
 </gradient>
 ```
 
+    - "angle": This allows the developer to set the angle of the gradient. It can be any number between -180 to 180.
     - "stop": the order of the colour.
     - "position": this refers to the position of where the stop will be.
     - "opacity": the transparency of the colour.

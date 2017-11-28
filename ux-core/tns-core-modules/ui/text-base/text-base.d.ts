@@ -1,14 +1,16 @@
 /**
+ * This module has been modified for the purpose of building the ux-core plugin. Fully experimental.
  * @module "ui/text-base"
  */ /** */
 
 import { View, AddChildFromBuilder, Property, CssProperty, InheritedCssProperty, Style, Length } from "../core/view";
 import { FormattedString } from "../../text/formatted-string";
+/* import-ux-core */
 
 export * from "../core/view";
 export { FormattedString } from "../../text/formatted-string";
 
-export class TextBase extends View implements AddChildFromBuilder {
+export class TextBase extends View implements AddChildFromBuilder/* ux-core-gradientview */ {
     /**
      * Gets or sets the text.
      */
@@ -90,6 +92,8 @@ export class TextBase extends View implements AddChildFromBuilder {
 
     
 }
+
+/* applyMixins(Text-Base, [GradientView]) */
 
 export const textProperty: Property<TextBase, string>;
 export const formattedTextProperty: Property<TextBase, FormattedString>;

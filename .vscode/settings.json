@@ -1,0 +1,5 @@
+{
+    "terminal.integrated.env.osx": {
+        "PATH": "/Users/shermanchen/.platformio/penv/bin:/usr/local/Cellar/pear/bin:/usr/local/Cellar/composer/bin:/usr/local/Cellar/gcc/7.2.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/shermanchen/anaconda/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/Volumes/Samsung_T3/android-sdk/tools:/Volumes/Samsung_T3/android-sdk/platform-tools:/Volumes/Samsung_T3/Library/PostgreSQL/9.6/bin:/usr/local/mysql-5.7.18-macos10.12-x86_64/bin:/usr/local/mysql-5.7.18-macos10.12-x86_64/support-files:/Applications/microchip/xc8/v1.44/bin:/Applications/microchip/xc16/v1.33/bin"
+    }
+}

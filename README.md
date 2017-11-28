@@ -16,7 +16,7 @@ This project will aim to cover a few objectives that I have in mind:
 ```
 <Button gradient="signin-btn-gradient" text="SIGN IN" (tap)="btnSignInTapped()"></Button>
 ```
-    - "gradient": this is a property that can be used to point to a particular gradient file that defines properties like the colours, the direction (angle - provides greater control, not just left, right, up, down), the stops as well as the transparency for each stop in the gradient.
+   - "gradient": this is a property that can be used to point to a particular gradient file that defines properties like the colours, the direction (angle - provides greater control, not just left, right, up, down), the stops as well as the transparency for each stop in the gradient.
 
 **signin-btn-gradient.xml**
 
@@ -28,10 +28,10 @@ This project will aim to cover a few objectives that I have in mind:
 </gradient>
 ```
 
-    - "angle": This allows the developer to set the angle of the gradient. It can be any number between -180 to 180.
-    - "stop": the order of the colour.
-    - "position": this refers to the position of where the stop will be.
-    - "opacity": the transparency of the colour.
+   - "angle": This allows the developer to set the angle of the gradient. It can be any number between -180 to 180.
+   - "stop": the order of the colour.
+   - "position": this refers to the position of where the stop will be.
+   - "opacity": the transparency of the colour.
 
 2. The plugin should be something that developers can set at compile/design-time, but also do it programmatically. This flexibility is important because from a User Experience perspective, some elements should only respond with changes upon user interaction.
 

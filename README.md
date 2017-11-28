@@ -64,6 +64,10 @@ A photo has been taken of the drawing to help visualise the class design for the
 <Button backgroundColor=""></Button>
 ```
 
-It's important to note that View is declared as an ```abstract``` class using TypeScript, which means we can't place any implementation code within View. That leaves us with one other option. One way I can immediately see is to include commented code within each file, giving it a unique signature. It only has to be a single line, or a phrase like ```<!-- UX Core Goes Here -->```. When you install the module, we can replace that comment in the necessary files and do a TypeScript compilation to ensure that the changes are reflected in the generated .js files.
+### Under the Hood..Just a Little Peak
+
+It's important to note that View is declared as an ```abstract``` class using TypeScript, which means we can't place any implementation code within View. That leaves us with one other option. One way I can immediately see is to include commented code within each file, giving it a unique signature. It only has to be a single line, or a phrase like ```/* import-ux-core */``` and ```/* ux-core-gradientview */```. When you install the module, we can replace that comment in the necessary files and do a TypeScript compilation to ensure that the changes are reflected in the generated .js files.
 
 The backend compilation work might seem a little tedious right now, but if the NativeScript team does adopt the "ux-core" project as part of the NativeScript framework, well then, you'll never have to worry about those complex backend operations.
+
+Another important step that has been added experimentally to the ui/Text-Base class is that I have added a comment line below the class, ```/* applyMixins(Text-Base, [GradientView]) */```. This will enable the Text-Base class to incorporate both the properties from ```View``` as well as ```GradientView```.
